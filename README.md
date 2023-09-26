@@ -1,6 +1,6 @@
 # Recyclarr - Premade Configuration
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mattiaginoble/Recyclarr-PreConfig/blob/main/LICENSE)
+![GitHub](https://img.shields.io/github/license/mattiaginoble/Recyclarr-PreConfig)
 ![Static Badge](https://img.shields.io/badge/Radarr%20Version-v4-color?color=F6C451&link=https%3A%2F%2Fgithub.com%2FRadarr%2FRadarr)
 ![Static Badge](https://img.shields.io/badge/Sonarr%20Version-v4-color?color=5CC9FA&link=https%3A%2F%2Fgithub.com%2FSonarr%2FSonarr)
 ![GitHub release](https://img.shields.io/github/v/release/mattiaginoble/Recyclarr-PreConfig.svg?color=green)
