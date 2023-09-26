@@ -4,7 +4,7 @@
 ![Static Badge](https://img.shields.io/badge/Radarr%20Version%20-%20v4%20-%20orange?link=https%3A%2F%2Fgithub.com%2FRadarr%2FRadarr)
 ![Static Badge](https://img.shields.io/badge/Sonarr%20Version%20-%20v4%20-%20blue?link=https%3A%2F%2Fgithub.com%2FSonarr%2FSonarr)
 [![GitHub release](https://img.shields.io/github/v/release/mattiaginoble/recyclarr-config.svg?color=green)
-[![Github All Releases](https://img.shields.io/github/downloads/mattiaginoble/recyclarr-config/total.svg)]()
+![GitHub all releases](https://img.shields.io/github/downloads/mattiaginoble/recyclarr-config/total)
 [![Support Server](https://img.shields.io/discord/492590071455940612.svg?color=7289da&label=TRaSH-Guides&logo=discord&style=flat-square)](https://discord.com/invite/Vau8dZ3)
 
 This is the repository for premade Configuration for the [Recyclarr](https://github.com/recyclarr/recyclarr) command line application 
