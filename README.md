@@ -37,12 +37,12 @@ Run `recyclarr sync`, and all settings on Radarr and Sonarr will be loaded, thes
 
 It is important to create Quality Profiles in Radarr and Sonarr according to your needs among the following.
 
-Quality Profiles for Sonarr:
+TRaSH Quality Profiles for Sonarr:
 [WEB-DL (1080p)](https://trash-guides.info/Sonarr/images/cf-profile-web1080.png)
 [WEB-DL (2160p)](https://trash-guides.info/Sonarr/images/cf-profile-web2160.png)
 [Remux-1080p - Anime](https://trash-guides.info/Sonarr/images/cfa-default-scoring.png)
 
-Quality Profiles for Radarr:
+TRaSH Quality Profiles for Radarr:
 [HD Bluray + WEB](https://trash-guides.info/Radarr/images/qp-bluray-webdl.png )
 [UHD Bluray + WEB](https://trash-guides.info/Radarr/images/qp-uhd-bluray-webdl.png)
 [Remux-1080p - Anime](https://trash-guides.info/Radarr/images/cfa-complete.png )
