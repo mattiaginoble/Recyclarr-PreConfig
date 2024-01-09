@@ -13,7 +13,7 @@
 sonarr:
   series:
     # Set the URL/API Key to your actual instance
-    base_url: "SONARR_IP:8989"
+    base_url: "http://SONARR_IP:8989"
     api_key: "SONARR_APIKEY"
 
     # Quality definitions from the guide to sync to Sonarr. Choices: series, anime
@@ -49,7 +49,13 @@ sonarr:
 
       # Misc
       - trash_ids:
-          - ec8fa7296b64e8cd390a1600981f3923 # Repack/Proper
+          - 003262633471ef9477b1d685a73b5e93 # Proper
+        quality_profiles:
+          - name: WEB-DL (1080p)
+            score: 8
+
+      - trash_ids:
+          - f11b533d6db941b84f36cab756b29ea5 # Repack
         quality_profiles:
           - name: WEB-DL (1080p)
             score: 5
@@ -199,7 +205,13 @@ sonarr:
 
       # Misc
       - trash_ids:
-          - ec8fa7296b64e8cd390a1600981f3923 # Repack/Proper
+          - 003262633471ef9477b1d685a73b5e93 # Proper
+        quality_profiles:
+          - name: WEB-DL (2160p)
+            score: 8
+
+      - trash_ids:
+          - f11b533d6db941b84f36cab756b29ea5 # Repack
         quality_profiles:
           - name: WEB-DL (2160p)
             score: 5
@@ -603,7 +615,13 @@ radarr:
 
       # Misc
       - trash_ids:
-          - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
+          - 482da74d7594524acd1cd9de5d5fb0dc # Proper
+        quality_profiles:
+          - name: HD Bluray + WEB
+            score: 7
+
+      - trash_ids:
+          - a06f27e686bda44e19515ccf51af279f # Repack
         quality_profiles:
           - name: HD Bluray + WEB
             score: 5
@@ -806,7 +824,13 @@ radarr:
 
       # Misc
       - trash_ids:
-          - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
+          - 482da74d7594524acd1cd9de5d5fb0dc # Proper
+        quality_profiles:
+          - name: UHD Bluray + WEB
+            score: 7
+
+      - trash_ids:
+          - a06f27e686bda44e19515ccf51af279f # Repack
         quality_profiles:
           - name: UHD Bluray + WEB
             score: 5
@@ -1187,7 +1211,13 @@ radarr:
 
       # Misc
       - trash_ids:
-          - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
+          - 482da74d7594524acd1cd9de5d5fb0dc # Proper
+        quality_profiles:
+          - name: Remux + WEB 1080p
+            score: 7
+
+      - trash_ids:
+          - a06f27e686bda44e19515ccf51af279f # Repack
         quality_profiles:
           - name: Remux + WEB 1080p
             score: 5
@@ -1434,7 +1464,13 @@ radarr:
 
       # Misc
       - trash_ids:
-          - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
+          - 482da74d7594524acd1cd9de5d5fb0dc # Proper
+        quality_profiles:
+          - name: Remux + WEB 2160p
+            score: 7
+
+      - trash_ids:
+          - a06f27e686bda44e19515ccf51af279f # Repack
         quality_profiles:
           - name: Remux + WEB 2160p
             score: 5
@@ -1687,7 +1723,13 @@ radarr:
 
       # Misc
       - trash_ids:
-          - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
+          - 482da74d7594524acd1cd9de5d5fb0dc # Proper
+        quality_profiles:
+          - name: Bluray|IMAX-E|2160p
+            score: 7
+
+      - trash_ids:
+          - a06f27e686bda44e19515ccf51af279f # Repack
         quality_profiles:
           - name: Bluray|IMAX-E|2160p
             score: 5
@@ -1903,7 +1945,13 @@ radarr:
 
       # Misc
       - trash_ids:
-          - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
+          - 482da74d7594524acd1cd9de5d5fb0dc # Proper
+        quality_profiles:
+          - name: 1080p Streaming
+            score: 7
+
+      - trash_ids:
+          - a06f27e686bda44e19515ccf51af279f # Repack
         quality_profiles:
           - name: 1080p Streaming
             score: 5
@@ -2154,7 +2202,13 @@ radarr:
 
       # Misc
       - trash_ids:
-          - e7718d7a3ce595f289bfee26adc178f5 # Repack/Proper
+          - 482da74d7594524acd1cd9de5d5fb0dc # Proper
+        quality_profiles:
+          - name: 2160p Streaming
+            score: 7
+
+      - trash_ids:
+          - a06f27e686bda44e19515ccf51af279f # Repack
         quality_profiles:
           - name: 2160p Streaming
             score: 5
